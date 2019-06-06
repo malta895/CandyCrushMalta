@@ -16,16 +16,20 @@
 #include <QIcon>
 #include <QDebug>
 #include <QString>
+#include <QResource>
+#include <QDir>
+
+
 
 #include "gestiscicampo.h"
 #include "finestraclassifica.h"
 //#include "ui_finestraClassifica.h"
 
 
-#define CARAMELLA_ROSSA "../CandyCrushGui/immagini/granata_rossa.png"
-#define CARAMELLA_VERDE "../CandyCrushGui/immagini/granata_verde.png"
-#define CARAMELLA_BLU "../CandyCrushGui/immagini/granata_blu.png"
-#define ESPLOSIONE "../CandyCrushGui/immagini/maxresdefault.png"
+#define CARAMELLA_ROSSA ":/immagini/granata_rossa.png"
+#define CARAMELLA_VERDE ":/immagini/granata_verde.png"
+#define CARAMELLA_BLU ":/immagini/granata_blu.png"
+#define ESPLOSIONE ":/immagini/maxresdefault.png"
 
 #define MOSSE_MAX 5
 
@@ -41,8 +45,8 @@ private:
     Ui::FinestraGioco *ui;
     QGridLayout *griglia = new QGridLayout(this);
     QPushButton *bottone[DIM][DIM];
-    QSound *esplosione = new QSound("../CandyCrushGui/suoni/sparo.wav",this);
-    QSound *sottofondo = new QSound("../CandyCrushGui/suoni/sottofondo.wav",this);
+    QSound *esplosione = new QSound(":/suoni/sparo.wav",this);
+    QSound *sottofondo = new QSound(":/suoni/sottofondo.wav",this);
     QIcon *immagine_A = new QIcon(CARAMELLA_ROSSA);
     QIcon *immagine_B = new QIcon(CARAMELLA_VERDE);
     QIcon *immagine_C = new QIcon(CARAMELLA_BLU);

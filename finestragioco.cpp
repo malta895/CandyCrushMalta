@@ -9,6 +9,7 @@ FinestraGioco::FinestraGioco(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::FinestraGioco)
 {
+    Q_INIT_RESOURCE(candyresources);
     ui->setupUi(this);
     sottofondo->setLoops(-1);//Il sottofondo viene eseguito in loop infinito
     sottofondo->play();

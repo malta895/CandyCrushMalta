@@ -45,3 +45,6 @@ DISTFILES += \
     FileDati/giocatori.dat \
     FileDati/mosse.dat \
     FileDati/sequenziale.dat
+
+RESOURCES += \
+    candyresources.qrc

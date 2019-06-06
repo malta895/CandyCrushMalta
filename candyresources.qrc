@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>immagini/dofur_blu_a.jpg</file>
+        <file>immagini/dofur_blu_s.jpg</file>
+        <file>immagini/dofur_blu.jpg</file>
+        <file>immagini/dofur_gialla_a.jpg</file>
+        <file>immagini/dofur_gialla_s.jpg</file>
+        <file>immagini/dofur_gialla.jpg</file>
+        <file>immagini/dofur_rossa_a.jpg</file>
+        <file>immagini/dofur_rossa_s.jpg</file>
+        <file>immagini/dofur_rossa.jpg</file>
+        <file>immagini/ElachDufour10060.jpg</file>
+        <file>immagini/explosion.gif</file>
+        <file>immagini/granata_blu.png</file>
+        <file>immagini/granata_original.jpg</file>
+        <file>immagini/granata_rossa.png</file>
+        <file>immagini/granata_verde.png</file>
+        <file>immagini/maxresdefault.jpg</file>
+        <file>immagini/maxresdefault.png</file>
+        <file>suoni/014.wav</file>
+        <file>suoni/032.wav</file>
+        <file>suoni/esplosione.wav</file>
+        <file>suoni/sottofondo.pkf</file>
+        <file>suoni/sottofondo.wav</file>
+        <file>suoni/sparo.wav</file>
+        <file>suoni/suono.wav</file>
+    </qresource>
+</RCC>
