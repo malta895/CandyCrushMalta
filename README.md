@@ -1,5 +1,5 @@
 # Candy Crush Malta
-I made this game as University project during my bachelor at Politecnico di Milano, Italy, in AA 2014/2015 for the course "Fondamenti di Informatica". 
+I made this game as University project during my bachelor at Politecnico di Milano, Italy, in AA 2014/2015 for the course "Fondamenti di Informatica" (Fundaments of Informatics). 
 
 Made with Qt Creator and QtGui libraries.
 
