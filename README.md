@@ -11,8 +11,6 @@ This is the first programming course I have taken in my life, so this program ma
 
 (Sorry for the Comic Sans 😅)
 
-![App Demo](./app_demo.gif)
-
 ## Instructions
 
 Requires QtGui libraries.
