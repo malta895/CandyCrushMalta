@@ -5,6 +5,12 @@ Made with Qt Creator and QtGui libraries.
 
 This is the first programming course I have taken in my life, so this program may have lots of bad practices and bugs :)
 
+<p align="center">
+ <img src="./app_demo.gif" alt="App demo" height="700px"/>
+</p>
+
+(Sorry for the Comic Sans 😅)
+
 ![App Demo](./app_demo.gif)
 
 ## Instructions
@@ -18,3 +24,4 @@ Run the executable: `./CandyCrushGui`
 You can also import the project into QtCreator and build from there.
 
 Enjoy!
+
