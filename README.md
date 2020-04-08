@@ -5,6 +5,8 @@ Made with Qt Creator and QtGui libraries.
 
 This is the first programming course I have taken in my life, so this program may have lots of bad practices and bugs :)
 
+![App Demo](./app_demo.gif)
+
 ## Instructions
 
 Requires QtGui libraries.
