@@ -56,9 +56,11 @@ void Classifica::CaricaGiocatori(){//Legge dal file la lista dei giocatori e le 
     } else { //create classifica if doesn't exist
       FileGiocatore.close();
       ofstream new_file;
-      new_file(FILEGICATORI, ios::out);
-      new_file.close()
+      new_file.open(FILEGIOCATORI, ios::out);
+      new_file.close();
     }
+
+
     FileGiocatore.close();
 }
 
