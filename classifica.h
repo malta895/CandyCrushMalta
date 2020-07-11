@@ -6,7 +6,7 @@
 
 //#include "giocatori.h"
 
-#define FILEGIOCATORI "../CandyCrushGUI/FileDati/giocatori.dat"
+#define FILEGIOCATORI "./FileDati/giocatori.dat"
 
 
 using std::fstream;

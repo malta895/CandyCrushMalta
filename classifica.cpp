@@ -53,6 +53,11 @@ void Classifica::CaricaGiocatori(){//Legge dal file la lista dei giocatori e le 
         }
         if(Players.size()>0)
             SortClassifica();//Riordino la Classifica
+    } else { //create classifica if doesn't exist
+      FileGiocatore.close();
+      ofstream new_file;
+      new_file(FILEGICATORI, ios::out);
+      new_file.close()
     }
     FileGiocatore.close();
 }
