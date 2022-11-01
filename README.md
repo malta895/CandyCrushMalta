@@ -13,7 +13,12 @@ This is the first programming course I have taken in my life, so this program ma
 
 ## Instructions
 
-Requires QtGui libraries.
+Requires QtGui libraries. 
+
+E.g. in Ubuntu install the following:
+```bash
+sudo apt-get install qt5-qmake qtmultimedia5-dev qtbase5-dev qtbase5-dev-tools libqt5svg5-dev libqt5webenginewidgets5 libqt5webchannel5-dev qtwebengine5-dev
+```
 
 Run `qmake` and then `make`
 
